@@ -10,7 +10,6 @@ class TestAssign1(unittest.TestCase):
                                               'bacd', 'badc', 'bcad', 'bcda', 'bdac', 'bdca', 
                                               'cabd', 'cadb', 'cbad', 'cbda', 'cdab', 'cdba', 
                                               'dabc', 'dacb', 'dbac', 'dbca', 'dcab', 'dcba'])
-        self.assertEqual(perm_gen_lex('abcdefghi'), [''])
 
 if __name__ == "__main__":
         unittest.main()
