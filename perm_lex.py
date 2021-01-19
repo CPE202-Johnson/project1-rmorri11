@@ -17,8 +17,3 @@ def perm_gen_lex(a):
         for j in reduced_result:
             list1.append(i + j)
     return list1
-
-
-
-x = perm_gen_lex('abcdefghijk')
-#print(x)

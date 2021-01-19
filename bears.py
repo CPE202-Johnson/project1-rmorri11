@@ -15,6 +15,3 @@ def bears(n):
         b = bears(n-42)
     
     return b
-
-
-print(bears(5280))
